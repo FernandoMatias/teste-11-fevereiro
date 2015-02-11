@@ -7,7 +7,7 @@ Ext.define('realPneus.store.sincronizarFuncionariosStore', {
 	    //url: 'php/json/listaContatos.php',
 	    api: {
 		create: 'app/php/vazio.php', //CRUD
-		read : 'app/php/listaFuncionarios.php',
+		read : 'http://192.168.111.112/listaFuncionarios.php',
 		//read: link,
 		update: 'app/php/vazio.php',
 		destroy: 'app/php/vazio.php'
