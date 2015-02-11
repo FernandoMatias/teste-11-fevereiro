@@ -16,7 +16,7 @@ Ext.define('realPneus.store.sincronizarClientesStore', {
 	    //url: 'php/json/listaContatos.php',
 	    api: {
 		create: 'app/php/vazio.php', //CRUD
-		read : 'app/php/listaClientes.php',
+		read : 'http://192.168.111.112/php/listaClientes.php',
 		//read: link,
 		update: 'app/php/vazio.php',
 		destroy: 'app/php/vazio.php'
